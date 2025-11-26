@@ -31,7 +31,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  'your-username/your-lazygit-plugin',
+  'amirgard0/quick-lazygit',
   config = function()
     require('your-plugin-name').setup({
       keymap = {
@@ -46,7 +46,7 @@ Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
 use {
-  'your-username/your-lazygit-plugin',
+  'amirgard0/quick-lazygit',
   config = function()
     require('your-plugin-name').setup({
       keymap = {
