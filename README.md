@@ -62,7 +62,7 @@ use {
 The plugin requires a keymap configuration to work:
 
 ```lua
-require('your-plugin-name').setup({
+require('quick-lazygit').setup({
   keymap = {
     lazygit = '<leader>gg'  -- Change this to your preferred keybinding
   }
